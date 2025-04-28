@@ -43,7 +43,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_TAB,         KC_Q,           KC_W,           KC_E,           KC_R,           KC_T,                                           KC_Y,           KC_U,           KC_I,           KC_O,           KC_P,           KC_LBRC,        
     KC_ESCAPE,      KC_A,           KC_S,           KC_D,           KC_F,           KC_G,                                           KC_H,           KC_J,           KC_K,           KC_L,           KC_SCLN,        KC_QUOTE,       
     KC_LEFT_SHIFT,  MT(MOD_LALT, KC_Z),MT(MOD_LCTL, KC_X),MT(MOD_LSFT, KC_C),MT(MOD_LGUI, KC_V),MEH_T(KC_B),                                    MEH_T(KC_N),    MT(MOD_RGUI, KC_M),MT(MOD_RSFT, KC_COMMA),MT(MOD_RCTL, KC_DOT),MT(MOD_LALT, KC_SLASH),KC_RIGHT_SHIFT, 
-                                                    KC_BSPC,        LT(1,KC_ESCAPE),                                LT(2,KC_ENTER), KC_SPACE
+                                                    KC_BSPC,        LT(1,KC_TAB),                                   LT(2,KC_ENTER), KC_SPACE
   ),
   [1] = LAYOUT_voyager(
     KC_NO,          KC_NO,          KC_NO,          KC_NO,          RGB_VAD,        RGB_VAI,                                        KC_NO,          KC_NO,          KC_NO,          KC_NO,          KC_NO,          KC_NO,          
@@ -85,7 +85,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 uint16_t get_tapping_term(uint16_t keycode, keyrecord_t *record) {
     switch (keycode) {
-        case LT(1,KC_ESCAPE):
+        case LT(1,KC_TAB):
             return TAPPING_TERM -20;
         case LT(2,KC_ENTER):
             return TAPPING_TERM -20;
