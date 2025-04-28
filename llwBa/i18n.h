@@ -1,8 +1,8 @@
 #define RU_YO KC_GRV
+#define RU_SHCH KC_O
 #define RU_MINS KC_MINS
 #define RU_RUBL ALGR(KC_8)
 #define RU_UNDS S(KC_MINS)
-#define RU_ZE KC_P
 #define RU_DQUO S(KC_2)
 #define RU_EXLM S(KC_1)
 #define RU_QUES S(KC_7)
