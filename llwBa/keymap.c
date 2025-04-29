@@ -51,7 +51,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [2] = LAYOUT_voyager(
     KC_F1,          KC_F2,          KC_F3,          KC_F4,          KC_F5,          KC_F6,                                          KC_F7,          KC_F8,          KC_F9,          KC_F10,         KC_F11,         KC_F12,         
     KC_NO,          KC_EQUAL,       KC_MINUS,       KC_LBRC,        KC_RBRC,        KC_NO,                                          LGUI(KC_LEFT),  LALT(KC_LEFT),  LALT(KC_RIGHT), LGUI(KC_RIGHT), LCTL(KC_F2),    KC_NO,          
-    KC_PIPE,        KC_LABK,        KC_RABK,        KC_LPRN,        KC_RPRN,        KC_COLN,                                        KC_LEFT,        KC_DOWN,        KC_UP,          KC_RIGHT,       LGUI(RU_YO),    KC_NO,          
+    KC_PIPE,        KC_LABK,        KC_RABK,        KC_LPRN,        KC_RPRN,        KC_COLN,                                        KC_LEFT,        KC_DOWN,        KC_UP,          KC_RIGHT,       LGUI(KC_NUBS),  KC_NO,          
     KC_TRANSPARENT, KC_LEFT_ALT,    TD(DANCE_4),    TD(DANCE_5),    TD(DANCE_6),    KC_NO,                                          KC_NO,          TD(DANCE_7),    TD(DANCE_8),    KC_RIGHT_CTRL,  KC_LEFT_ALT,    KC_TRANSPARENT, 
                                                     KC_TRANSPARENT, KC_TRANSPARENT,                                 KC_TRANSPARENT, KC_TRANSPARENT
   ),
@@ -72,7 +72,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [5] = LAYOUT_voyager(
     KC_F1,          KC_F2,          KC_F3,          KC_F4,          KC_F5,          KC_F6,                                          KC_F7,          KC_F8,          KC_F9,          KC_F10,         KC_F11,         KC_F12,         
     KC_NO,          RU_EQL,         RU_MINS,        LALT(RU_YO),    LALT(LSFT(RU_YO)),RU_YO,                                          LGUI(KC_LEFT),  LALT(KC_LEFT),  LALT(KC_RIGHT), LGUI(KC_RIGHT), LCTL(KC_F2),    RU_HARD,        
-    LALT(LSFT(RU_BSLS)),LALT(LSFT(RU_BE)),LALT(LSFT(RU_YU)),RU_LPRN,        RU_RPRN,        RU_COLN,                                        KC_LEFT,        KC_DOWN,        KC_UP,          KC_RIGHT,       LGUI(RU_YO),    KC_NO,          
+    LALT(LSFT(RU_BSLS)),LALT(LSFT(RU_BE)),LALT(LSFT(RU_YU)),RU_LPRN,        RU_RPRN,        RU_COLN,                                        KC_LEFT,        KC_DOWN,        KC_UP,          KC_RIGHT,       LGUI(KC_NUBS),  KC_NO,          
     KC_TRANSPARENT, KC_LEFT_ALT,    TD(DANCE_14),   TD(DANCE_15),   TD(DANCE_16),   KC_NO,                                          KC_NO,          TD(DANCE_17),   TD(DANCE_18),   KC_RIGHT_CTRL,  KC_LEFT_ALT,    KC_TRANSPARENT, 
                                                     KC_TRANSPARENT, KC_TRANSPARENT,                                 KC_TRANSPARENT, KC_TRANSPARENT
   ),

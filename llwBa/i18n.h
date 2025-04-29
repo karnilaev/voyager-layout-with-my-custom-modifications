@@ -1,4 +1,3 @@
-#define RU_YO KC_GRV
 #define RU_SHCH KC_O
 #define RU_MINS KC_MINS
 #define RU_RUBL ALGR(KC_8)
@@ -11,6 +10,7 @@
 #define RU_SCLN S(KC_4)
 #define RU_BSLS KC_BSLS
 #define RU_EQL KC_EQL
+#define RU_YO KC_GRV
 #define RU_BE KC_COMM
 #define RU_YU KC_DOT
 #define RU_LPRN S(KC_9)
