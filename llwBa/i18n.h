@@ -9,6 +9,7 @@
 #define RU_PERC S(KC_5)
 #define RU_SCLN S(KC_4)
 #define RU_BSLS KC_BSLS
+#define RU_DOT KC_SLSH
 #define RU_EQL KC_EQL
 #define RU_YO KC_GRV
 #define RU_BE KC_COMM
