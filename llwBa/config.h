@@ -1,7 +1,8 @@
+#define CHORDAL_HOLD
 #define PERMISSIVE_HOLD
 
 #define USB_SUSPEND_WAKEUP_DELAY 0
-#define SERIAL_NUMBER "llwBa/wOEwNj"
+#define SERIAL_NUMBER "llwBa/3vypgW"
 #define LAYER_STATE_8BIT
 
 #define TAPPING_TERM_PER_KEY
