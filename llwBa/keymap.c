@@ -94,31 +94,31 @@ const char chordal_hold_layout[MATRIX_ROWS][MATRIX_COLS] PROGMEM =
 uint16_t get_tapping_term(uint16_t keycode, keyrecord_t *record) {
     switch (keycode) {
         case LT(1,KC_TAB):
-            return TAPPING_TERM -20;
+            return TAPPING_TERM -70;
         case LT(2,KC_ENTER):
-            return TAPPING_TERM -20;
+            return TAPPING_TERM -70;
         case KC_3:
-            return TAPPING_TERM + 30;
+            return TAPPING_TERM -20;
         case KC_DOT:
-            return TAPPING_TERM + 30;
+            return TAPPING_TERM -20;
         case TD(DANCE_4):
-            return TAPPING_TERM + 30;
+            return TAPPING_TERM -20;
         case TD(DANCE_5):
-            return TAPPING_TERM -40;
+            return TAPPING_TERM -90;
         case KC_DLR:
-            return TAPPING_TERM + 30;
+            return TAPPING_TERM -20;
         case RU_RUBL:
-            return TAPPING_TERM + 30;
+            return TAPPING_TERM -20;
         case LALT(KC_4):
-            return TAPPING_TERM + 30;
+            return TAPPING_TERM -20;
         case RU_PERC:
-            return TAPPING_TERM + 30;
+            return TAPPING_TERM -20;
         case RU_DOT:
-            return TAPPING_TERM + 30;
+            return TAPPING_TERM -20;
         case TD(DANCE_13):
-            return TAPPING_TERM + 30;
+            return TAPPING_TERM -20;
         case TD(DANCE_14):
-            return TAPPING_TERM -40;
+            return TAPPING_TERM -90;
         default:
             return TAPPING_TERM;
     }
