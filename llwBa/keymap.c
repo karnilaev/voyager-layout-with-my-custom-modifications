@@ -903,3 +903,13 @@ tap_dance_action_t tap_dance_actions[] = {
         [DANCE_15] = ACTION_TAP_DANCE_FN_ADVANCED(on_dance_15, dance_15_finished, dance_15_reset),
         [DANCE_16] = ACTION_TAP_DANCE_FN_ADVANCED(on_dance_16, dance_16_finished, dance_16_reset),
 };
+
+
+uint16_t get_quick_tap_term(uint16_t keycode, keyrecord_t *record) {
+    switch (keycode) {
+        case MT(MOD_LSFT, KC_F):
+            return 0;
+        default:
+            return QUICK_TAP_TERM;
+    }
+}
