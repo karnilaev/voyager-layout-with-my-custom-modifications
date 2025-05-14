@@ -1,8 +1,12 @@
+#define FLOW_TAP_TERM 120
 #define CHORDAL_HOLD
+#undef TAPPING_TERM
+#define TAPPING_TERM 170
+
 #define PERMISSIVE_HOLD
 
 #define USB_SUSPEND_WAKEUP_DELAY 0
-#define SERIAL_NUMBER "llwBa/PBMoOJ"
+#define SERIAL_NUMBER "llwBa/lb7p5e"
 #define LAYER_STATE_8BIT
 
 #define TAPPING_TERM_PER_KEY
