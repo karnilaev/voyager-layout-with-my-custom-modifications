@@ -2,7 +2,7 @@
 #define PERMISSIVE_HOLD
 
 #define USB_SUSPEND_WAKEUP_DELAY 0
-#define SERIAL_NUMBER "llwBa/aNewrG"
+#define SERIAL_NUMBER "llwBa/0WKGJN"
 #define LAYER_STATE_8BIT
 
 #define TAPPING_TERM_PER_KEY
