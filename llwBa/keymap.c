@@ -17,24 +17,24 @@ enum custom_keycodes {
 
 
 
-#define DUAL_FUNC_0 LT(1, KC_F13)
-#define DUAL_FUNC_1 LT(5, KC_6)
-#define DUAL_FUNC_2 LT(6, KC_H)
-#define DUAL_FUNC_3 LT(8, KC_A)
-#define DUAL_FUNC_4 LT(10, KC_7)
-#define DUAL_FUNC_5 LT(1, KC_Y)
-#define DUAL_FUNC_6 LT(15, KC_F23)
-#define DUAL_FUNC_7 LT(1, KC_F2)
-#define DUAL_FUNC_8 LT(2, KC_D)
-#define DUAL_FUNC_9 LT(13, KC_8)
-#define DUAL_FUNC_10 LT(9, KC_6)
-#define DUAL_FUNC_11 LT(11, KC_Z)
+#define DUAL_FUNC_0 LT(14, KC_F12)
+#define DUAL_FUNC_1 LT(13, KC_T)
+#define DUAL_FUNC_2 LT(12, KC_F12)
+#define DUAL_FUNC_3 LT(14, KC_G)
+#define DUAL_FUNC_4 LT(2, KC_F23)
+#define DUAL_FUNC_5 LT(12, KC_M)
+#define DUAL_FUNC_6 LT(7, KC_5)
+#define DUAL_FUNC_7 LT(2, KC_F22)
+#define DUAL_FUNC_8 LT(6, KC_I)
+#define DUAL_FUNC_9 LT(13, KC_5)
+#define DUAL_FUNC_10 LT(14, KC_F5)
+#define DUAL_FUNC_11 LT(12, KC_H)
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [0] = LAYOUT_voyager(
     SWITCH_TO_RU,   CW_TOGG,        KC_NO,          KC_NO,          KC_BRIGHTNESS_DOWN,KC_BRIGHTNESS_UP,                                KC_MEDIA_PREV_TRACK,KC_MEDIA_PLAY_PAUSE,KC_MEDIA_NEXT_TRACK,KC_AUDIO_MUTE,  KC_AUDIO_VOL_DOWN,KC_AUDIO_VOL_UP,
     KC_TAB,         KC_Q,           KC_W,           KC_E,           KC_R,           KC_T,                                           KC_Y,           KC_U,           KC_I,           KC_O,           KC_P,           KC_LBRC,
-    ALL_T(KC_ESCAPE),MEH_T(KC_A),    KC_S,           KC_D,           KC_F,           KC_G,                                           KC_H,           KC_J,           KC_K,           KC_L,           MEH_T(KC_SCLN), ALL_T(KC_QUOTE),
+    ALL_T(KC_ESCAPE),KC_A,           KC_S,           KC_D,           KC_F,           MEH_T(KC_G),                                    MEH_T(KC_H),    KC_J,           KC_K,           KC_L,           KC_SCLN,        ALL_T(KC_QUOTE),
     KC_LEFT_SHIFT,  MT(MOD_LALT, KC_Z),MT(MOD_LCTL, KC_X),MT(MOD_LGUI, KC_C),MT(MOD_LSFT, KC_V),KC_B,                                           KC_N,           MT(MOD_RSFT, KC_M),MT(MOD_RGUI, KC_COMMA),MT(MOD_RCTL, KC_DOT),MT(MOD_LALT, KC_SLASH),KC_RIGHT_SHIFT,
                                                     KC_BSPC,        LT(1, KC_TAB),                                  LT(2, KC_ENTER),KC_SPACE
   ),
